@@ -1,0 +1,7 @@
+node_modules/
+.next/
+.vercel/
+*.log
+.DS_Store
+fernando-borges-urologia-site.zip
+generated_images/
