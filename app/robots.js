@@ -1,1 +1,1 @@
-export default function robots(){return {rules:{userAgent:'*',allow:'/'},sitemap:'https://fernando-borges-urologia.vercel.app/sitemap.xml'}}
+export default function robots(){const agents=['*','Googlebot','Bingbot','GPTBot','ChatGPT-User','Google-Extended','PerplexityBot'];return{rules:agents.map(userAgent=>({userAgent,allow:'/'})),sitemap:'https://fernando-borges-urologia.vercel.app/sitemap.xml',host:'https://fernando-borges-urologia.vercel.app'}}
