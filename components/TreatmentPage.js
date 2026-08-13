@@ -4,7 +4,8 @@ import Header from './Header';
 export default function TreatmentPage({treatment:t}){
  const base='https://fernando-borges-urologia.vercel.app';
  const schema={'@context':'https://schema.org','@graph':[
-  {'@type':'MedicalWebPage','@id':`${base}/tratamentos/${t.slug}#webpage`,name:t.title,headline:t.title,description:t.description,inLanguage:'pt-BR',dateModified:'2026-08-12',lastReviewed:'2026-08-12',about:{'@type':'MedicalCondition',name:t.title},reviewedBy:{'@id':`${base}/sobre#physician`}},
+  {'@type':'MedicalWebPage','@id':`${base}/tratamentos/${t.slug}#webpage`,url:`${base}/tratamentos/${t.slug}`,name:t.title,headline:t.title,description:t.description,inLanguage:'pt-BR',dateModified:'2026-08-13',lastReviewed:'2026-08-13',about:{'@id':`${base}/tratamentos/${t.slug}#procedure`},reviewedBy:{'@id':`${base}/sobre#physician`}},
+  {'@type':'MedicalProcedure','@id':`${base}/tratamentos/${t.slug}#procedure`,url:`${base}/tratamentos/${t.slug}`,name:t.title,description:t.description,howPerformed:t.approach.join('; '),performer:{'@id':`${base}/sobre#physician`},provider:{'@id':`${base}/#clinic-rondonopolis`},areaServed:[{'@type':'City',name:'Rondonópolis'},{'@type':'City',name:'São Paulo'}]},
   {'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Início',item:base},{'@type':'ListItem',position:2,name:'Tratamentos',item:`${base}/#tratamentos`},{'@type':'ListItem',position:3,name:t.title,item:`${base}/tratamentos/${t.slug}`}]},
   {'@type':'FAQPage',mainEntity:t.faq.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))}
  ]};
@@ -16,7 +17,7 @@ export default function TreatmentPage({treatment:t}){
    <div className="expert-space"><span>Em atualização</span><h3>Notas e protocolo do Dr. Fernando</h3><p>Área reservada para os detalhes clínicos, tecnologias utilizadas, indicações específicas e orientações que serão fornecidas pelo médico.</p></div>
    <section className="faq"><span className="overline dark">Perguntas frequentes</span><h2>Dúvidas sobre {t.title.toLowerCase()}</h2>{t.faq.map(([q,a])=><details key={q}><summary>{q}</summary><p>{a}</p></details>)}</section>
    <p className="medical-notice">{t.notice}</p></article>
-   <aside><h3>Atendimento individualizado</h3><div><CheckCircle2/> Avaliação médica completa</div><div><CheckCircle2/> Conduta baseada em evidências</div><div><CheckCircle2/> Plano definido para cada paciente</div><a className="btn primary" href={`https://wa.me/556696457535?text=Olá%2C%20gostaria%20de%20agendar%20uma%20consulta%20sobre%20${encodeURIComponent(t.title)}.`}>Agendar consulta <ArrowUpRight/></a><small>Dr. Fernando Borges Ribeiro<br/>CRM-MT 4737 | RQE 1713 Urologia</small></aside>
-  </section><section className="detail-next"><span>Instituto Fernando Borges</span><h2>Saúde masculina por inteiro.</h2><a href="https://wa.me/556696457535">Conversar com a equipe <ArrowUpRight/></a></section>
+   <aside><h3>Atendimento individualizado</h3><div><CheckCircle2/> Avaliação médica completa</div><div><CheckCircle2/> Conduta baseada em evidências</div><div><CheckCircle2/> Plano definido para cada paciente</div><a className="btn primary" href={`https://wa.me/5566981512722?text=Olá%2C%20gostaria%20de%20agendar%20uma%20avaliação%20sobre%20${encodeURIComponent(t.title)}.`}>Agendar Avaliação <ArrowUpRight/></a><small>Dr. Fernando Borges Ribeiro<br/>CRM-MT 4737 | RQE 1713 Urologia</small></aside>
+  </section><section className="detail-next"><span>Instituto Fernando Borges</span><h2>Saúde masculina por inteiro.</h2><a href="https://wa.me/5566981512722">Conversar com a equipe <ArrowUpRight/></a></section>
  </main>
 }
