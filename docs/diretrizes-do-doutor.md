@@ -33,3 +33,10 @@ Estas orientações devem ser consultadas antes de qualquer alteração futura n
 - Manter metadados únicos, canonical, sitemap, robots e `llms.txt` atualizados.
 - Validar JSON-LD sintaticamente após cada alteração e testar as URLs publicadas no Rich Results Test e no Schema Markup Validator quando acessíveis.
 - Não inventar dados ausentes: solicitar confirmação ao cliente antes de publicar.
+
+## Imprensa e autoridade editorial
+
+- Destacar aparições confirmadas na imprensa com fonte, tema e link verificável, sem reproduzir integralmente conteúdo protegido.
+- Relacionar cada menção ao médico no JSON-LD por `subjectOf`/`citation`, sem declarar o Instituto como autor ou editor da matéria externa.
+- Quando a URL profunda da matéria não puder ser confirmada, usar uma publicação verificável do próprio médico e o domínio oficial da fonte; nunca inventar URL, data ou autoria.
+- Menção confirmada: O Globo — “Dr. Fernando Borges Ribeiro alerta para a queda da testosterona no homem moderno”.
