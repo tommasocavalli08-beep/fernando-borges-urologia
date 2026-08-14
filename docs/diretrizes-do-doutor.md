@@ -28,6 +28,7 @@ Estas orientações devem ser consultadas antes de qualquer alteração futura n
 ## SEO e GEO obrigatórios
 
 - Home: `Physician`, `MedicalClinic`/`LocalBusiness`, `WebSite` e `WebPage` em JSON-LD.
+- Rappresentare il medico con il tipo multiplo `Person` + `Physician`; usare `https://schema.org/Urologic` come valore enumerato di `medicalSpecialty`.
 - Cada página de tratamento: `MedicalWebPage`, `MedicalProcedure`, `BreadcrumbList` e `FAQPage` próprios.
 - Vincular procedimentos ao médico e às unidades por `@id` estável.
 - Manter metadados únicos, canonical, sitemap, robots e `llms.txt` atualizados.
