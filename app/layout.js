@@ -2,6 +2,8 @@ import './globals.css';
 
 const base='https://fernando-borges-urologia.vercel.app';
 const portrait=`${base}/dr-fernando-borges-portrait.webp`;
+const pressImage=`${base}/o-globo-fernando-borges.webp`;
+const pressUrl='https://oglobo.globo.com/patrocinado/pulse-brand/noticia/2026/06/26/dr-fernando-borges-ribeiro-alerta-para-a-queda-da-testosterona-no-homem-moderno-e-os-impactos-da-extincao-masculina-global-1.ghtml';
 
 export const metadata={
  metadataBase:new URL(base),
@@ -25,7 +27,7 @@ const schema={'@context':'https://schema.org','@graph':[
  {'@type':['MedicalClinic','LocalBusiness'],'@id':clinicSpId,name:'Instituto RegeneraDOR',url:'https://institutoregenerador.com/',description:'Local de atendimento presencial do Dr. Fernando Borges Ribeiro em São Paulo.',telephone:'+5566981512722',address:{'@type':'PostalAddress',streetAddress:'Avenida Jamaris, 100 — Conjunto 1301',addressLocality:'São Paulo',addressRegion:'SP',postalCode:'04078-000',addressCountry:'BR'},areaServed:{'@type':'City',name:'São Paulo'},medicalSpecialty:'https://schema.org/Urologic',employee:{'@id':physicianId},sameAs:['https://www.instagram.com/instituto_regenerador/']},
  {'@type':'WebSite','@id':`${base}/#website`,url:base,name:'Instituto Fernando Borges',description:'Saúde masculina integral, andrologia e urologia avançada.',inLanguage:'pt-BR',publisher:{'@id':clinicMtId}},
  {'@type':'WebPage','@id':`${base}/#webpage`,url:base,name:'Instituto Fernando Borges',isPartOf:{'@id':`${base}/#website`},about:{'@id':physicianId},primaryImageOfPage:{'@type':'ImageObject',url:portrait},citation:{'@id':mediaId},inLanguage:'pt-BR'},
- {'@type':'CreativeWork','@id':mediaId,name:'Dr. Fernando Borges Ribeiro alerta para a queda da testosterona no homem moderno',description:'Destaque no O Globo sobre queda progressiva da testosterona e saúde masculina integral.',about:{'@id':physicianId},publisher:{'@type':'NewsMediaOrganization',name:'O Globo',url:'https://oglobo.globo.com/'},sameAs:'https://www.instagram.com/p/DZncVuLFFbM/',inLanguage:'pt-BR'}
+ {'@type':'NewsArticle','@id':mediaId,url:pressUrl,mainEntityOfPage:pressUrl,headline:'Dr. Fernando Borges Ribeiro alerta para a queda da testosterona no homem moderno e os impactos da “Extinção Masculina” global',description:'Segundo o especialista, o fenômeno representa um dos maiores desafios da saúde do homem na atualidade, com reflexos que vão muito além da vida sexual.',datePublished:'2026-06-26',image:{'@type':'ImageObject',url:pressImage,width:736,height:1600},about:{'@id':physicianId},publisher:{'@type':'NewsMediaOrganization',name:'O Globo',url:'https://oglobo.globo.com/'},inLanguage:'pt-BR'}
 ]};
 
 export default function RootLayout({children}){return <html lang="pt-BR"><body><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/>{children}</body></html>}
