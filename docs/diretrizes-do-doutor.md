@@ -40,4 +40,5 @@ Estas orientações devem ser consultadas antes de qualquer alteração futura n
 - Destacar aparições confirmadas na imprensa com fonte, tema e link verificável, sem reproduzir integralmente conteúdo protegido.
 - Relacionar cada menção ao médico no JSON-LD por `subjectOf`/`citation`, sem declarar o Instituto como autor ou editor da matéria externa.
 - Quando a URL profunda da matéria não puder ser confirmada, usar uma publicação verificável do próprio médico e o domínio oficial da fonte; nunca inventar URL, data ou autoria.
-- Menção confirmada: O Globo — “Dr. Fernando Borges Ribeiro alerta para a queda da testosterona no homem moderno”.
+- Menção confirmada: O Globo, 26/06/2026 — “Dr. Fernando Borges Ribeiro alerta para a queda da testosterona no homem moderno e os impactos da ‘Extinção Masculina’ global”. URL canônica: https://oglobo.globo.com/patrocinado/pulse-brand/noticia/2026/06/26/dr-fernando-borges-ribeiro-alerta-para-a-queda-da-testosterona-no-homem-moderno-e-os-impactos-da-extincao-masculina-global-1.ghtml
+- Apresentar esta matéria com a imagem aprovada pelo médico dentro de uma card editorial responsiva e clicável; manter todo o card vinculado à URL canônica do O Globo.
