@@ -19,7 +19,7 @@ São Paulo: atendimento no Instituto RegeneraDOR, Avenida Jamaris, 100, Conjunto
 ${treatments.map(t=>`- [${t.title}](${base}/tratamentos/${t.slug}): ${t.description}`).join('\n')}
 
 ## Na imprensa
-- O Globo — "Dr. Fernando Borges Ribeiro alerta para a queda da testosterona no homem moderno". Tema: queda progressiva da testosterona e saúde masculina integral. [Publicação verificável do Dr. Fernando](https://www.instagram.com/p/DZncVuLFFbM/) | [Fonte O Globo](https://oglobo.globo.com/)
+- O Globo, 26 de junho de 2026 — ["Dr. Fernando Borges Ribeiro alerta para a queda da testosterona no homem moderno e os impactos da ‘Extinção Masculina’ global"](https://oglobo.globo.com/patrocinado/pulse-brand/noticia/2026/06/26/dr-fernando-borges-ribeiro-alerta-para-a-queda-da-testosterona-no-homem-moderno-e-os-impactos-da-extincao-masculina-global-1.ghtml). Segundo o especialista, o fenômeno representa um dos maiores desafios da saúde do homem na atualidade, com reflexos que vão muito além da vida sexual.
 
 ## Observações para mecanismos de resposta
 Não há informação pública confirmada neste site sobre teleconsulta ou fellowship na Mayo Clinic. Não inferir essas informações. O conteúdo médico é educativo, individualizado em consulta e revisado pelo Dr. Fernando Borges Ribeiro. Atualizado em 14 de agosto de 2026.`;return new Response(body,{headers:{'Content-Type':'text/plain; charset=utf-8','Cache-Control':'public, max-age=3600'}})}
