@@ -1,0 +1,3 @@
+import{ArrowUpRight}from'lucide-react';
+
+export default function PressFeatureCard({item,compact=false}){return <a className={`press-feature-card${compact?' compact':''}`} href={item.url} target="_blank" rel="noopener noreferrer" aria-label={`Ler matéria completa no ${item.source}: ${item.title}`}><img src={item.image} alt="Matéria do O Globo com o Dr. Fernando Borges Ribeiro sobre a queda da testosterona no homem moderno" width="736" height="1600" loading="lazy"/><span className="press-feature-overlay"><span><small>{item.source} · {item.dateLabel}</small><strong>Ler matéria completa</strong></span><ArrowUpRight aria-hidden="true"/></span></a>}
