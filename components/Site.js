@@ -36,7 +36,6 @@ export default function Site() {
       </div>
       <motion.div className="hero-logo hero-logo-approved" initial={{ opacity: 0, scale: .92, y: 18 }} animate={{ opacity: 1, scale: 1, y: 0 }} transition={{ duration: 1, delay: .25 }}>
         <Image className="hero-logo-image" src="/ifb-logo-azul.webp" alt="Logotipo azul do Instituto Fernando Borges" width={960} height={960} priority sizes="(max-width: 580px) 250px, (max-width: 950px) 320px, 36vw" />
-        <small>Saúde Masculina • Andrologia • Urologia Avançada</small>
       </motion.div>
       <div className="ratio">
         <div><HeartPulse /><span><b>Saúde masculina integral</b>Sexualidade, hormônios, longevidade e regeneração funcional</span></div>
