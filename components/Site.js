@@ -11,6 +11,7 @@ import {
 import Header from './Header';
 import Reveal from './Reveal';
 import PressFeatureCard from './PressFeatureCard';
+import MadeByNovaWeb from './MadeByNovaWeb';
 import { treatments } from '@/lib/data';
 import { pressFeatures } from '@/lib/press';
 
@@ -83,4 +84,19 @@ export default function Site() {
   </main>;
 }
 
-function Footer() { return <footer><div className="footer-brand"><span className="logo-monogram" /><div><b>Instituto Fernando Borges</b><small>Saúde Masculina • Andrologia • Urologia Avançada</small></div></div><div><h4>Contato e informações</h4><a href="tel:+5566981512722"><Phone /> +55 (66) 98151-2722</a><a href="https://www.instagram.com/fernandoborges.uro/" target="_blank" rel="noopener noreferrer"><Instagram /> @fernandoborges.uro</a><Link href="/conteudos">Conteúdos médicos</Link><Link href="/politica-de-privacidade">Política de privacidade</Link></div><div className="legal">Dr. Fernando Borges Ribeiro<br />CRM-MT 4737 • CRM-SP 155372<br />RQE 1451 • RQE 1713<br />© {new Date().getFullYear()} Instituto Fernando Borges</div></footer>; }
+function Footer() {
+  return <footer>
+    <div className="footer-brand"><span className="logo-monogram" /><div><b>Instituto Fernando Borges</b><small>Saúde Masculina • Andrologia • Urologia Avançada</small></div></div>
+    <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',gap:'24px',flexWrap:'wrap'}}>
+      <div style={{minWidth:0}}>
+        <h4>Contato e informações</h4>
+        <a href="tel:+5566981512722"><Phone /> +55 (66) 98151-2722</a>
+        <a href="https://www.instagram.com/fernandoborges.uro/" target="_blank" rel="noopener noreferrer"><Instagram /> @fernandoborges.uro</a>
+        <Link href="/conteudos">Conteúdos médicos</Link>
+        <Link href="/politica-de-privacidade">Política de privacidade</Link>
+      </div>
+      <MadeByNovaWeb />
+    </div>
+    <div className="legal">Dr. Fernando Borges Ribeiro<br />CRM-MT 4737 • CRM-SP 155372<br />RQE 1451 • RQE 1713<br />© {new Date().getFullYear()} Instituto Fernando Borges</div>
+  </footer>;
+}
