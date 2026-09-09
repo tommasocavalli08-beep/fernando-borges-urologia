@@ -1,2 +1,36 @@
-'use client';import{useEffect,useState}from'react';import Link from'next/link';import{Menu,X,ArrowUpRight}from'lucide-react';
-export default function Header(){const[open,setOpen]=useState(false),[scrolled,setScrolled]=useState(false);useEffect(()=>{const h=()=>setScrolled(scrollY>25);addEventListener('scroll',h);return()=>removeEventListener('scroll',h)},[]);return <header className={`header ${scrolled?'scrolled':''}`}><Link href="/" className="brand"><span className="logo-monogram"/><span><b>Instituto Fernando Borges</b><small>Saúde Masculina • Andrologia • Urologia Avançada</small></span></Link><nav className={open?'open':''}><Link href="/sobre" onClick={()=>setOpen(false)}>O médico</Link><Link href="/#tratamentos" onClick={()=>setOpen(false)}>Tratamentos</Link><Link href="/conteudos" onClick={()=>setOpen(false)}>Conteúdos</Link><Link href="/#unidades" onClick={()=>setOpen(false)}>Unidades</Link><a className="nav-cta" href="https://wa.me/5566981512722?text=Olá%2C%20gostaria%20de%20agendar%20uma%20avaliação." target="_blank" rel="noopener noreferrer">Agendar Avaliação <ArrowUpRight/></a></nav><button className="menu" onClick={()=>setOpen(!open)} aria-label="Abrir menu" aria-expanded={open}>{open?<X/>:<Menu/>}</button></header>}
+'use client';
+
+import { useEffect, useState } from 'react';
+import Link from 'next/link';
+import { ArrowUpRight, Menu, X } from 'lucide-react';
+
+export default function Header() {
+  const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 25);
+    handleScroll();
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const closeMenu = () => setOpen(false);
+
+  return (
+    <header className={`header ${scrolled ? 'scrolled' : ''}`}>
+      <Link href="/" className="brand" aria-label="Instituto Fernando Borges — página inicial">
+        <span className="logo-monogram" />
+        <span><b>Instituto Fernando Borges</b><small>Saúde Masculina • Andrologia • Urologia Avançada</small></span>
+      </Link>
+      <nav className={open ? 'open' : ''} aria-label="Navegação principal">
+        <Link href="/sobre" onClick={closeMenu}>O médico</Link>
+        <Link href="/#tratamentos" onClick={closeMenu}>Tratamentos</Link>
+        <Link href="/conteudos" onClick={closeMenu}>Conteúdos</Link>
+        <Link href="/#unidades" onClick={closeMenu}>Unidades</Link>
+        <a className="nav-cta" href="https://wa.me/5566981512722?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener noreferrer">Agendar Avaliação <ArrowUpRight /></a>
+      </nav>
+      <button type="button" className="menu" onClick={() => setOpen(value => !value)} aria-label={open ? 'Fechar menu' : 'Abrir menu'} aria-expanded={open}>{open ? <X /> : <Menu />}</button>
+    </header>
+  );
+}

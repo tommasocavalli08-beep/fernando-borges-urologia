@@ -14,9 +14,12 @@ Estas orientações devem ser consultadas antes de qualquer alteração futura n
 
 - CTA principal: **Agendar Avaliação**.
 - WhatsApp principal: **+55 (66) 98151-2722**.
+- Exibir um botão flutuante de WhatsApp em todas as páginas, sempre vinculado ao número principal.
+- Para a unidade de São Paulo, o CTA específico de agendamento deve usar **+55 (11) 99840-0066**.
 - Preferir ícones e linguagem visual aos percentuais abstratos.
 - Preservar elegância, legibilidade, velocidade e acabamento mobile de alto nível.
 - Usar a fotografia aprovada do Dr. Fernando na seção do especialista até receber novo material oficial.
+- Usar na área visual inicial o logotipo azul aprovado pelo médico (`ifb-logo-azul.webp`).
 
 ## Conteúdo confirmado
 
@@ -24,6 +27,11 @@ Estas orientações devem ser consultadas antes de qualquer alteração futura n
 - Clube do Check-Up: programas completos, logística coordenada e concierge premium para otimizar tempo, saúde e agenda.
 - Rondonópolis: Rua José Salmen, 603, Vila Birigui, CEP 78705-057.
 - São Paulo: Instituto RegeneraDOR, Avenida Jamaris, 100, Conjunto 1301, Moema, CEP 04078-000.
+- O texto geral da grade de tratamentos deve ser: **“Várias frentes e focos de trabalho. Um único olhar integral.”** Evitar fixar o número de frentes no título.
+- Manter uma página própria para cada frente de cuidado e acrescentar **Fertilidade Masculina**.
+- A página de Reposição Hormonal e Testosterona deve seguir o documento editorial aprovado pelo médico: diagnóstico antes da prescrição, causas, sintomas, fertilidade, segurança, acompanhamento, FAQ e referências.
+- A página Sobre deve usar a biografia profissional fornecida em `BIO IFB`, incluindo os eixos Medicina, Urologia, inovação, longevidade, gestão, FreeDocs e família.
+- Texto regulatório preferencial: **“As especialidades registradas são Cirurgia Geral e Urologia, conforme os RQEs informados nesta página. Formações e aperfeiçoamentos complementares não representam novo título de especialista.”**
 
 ## SEO e GEO obrigatórios
 
