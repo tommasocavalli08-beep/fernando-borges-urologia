@@ -1,6 +1,5 @@
 import './globals.css';
 import FloatingWhatsApp from '@/components/FloatingWhatsApp';
-import MadeByNovaWeb from '@/components/MadeByNovaWeb';
 
 const base='https://fernando-borges-urologia.vercel.app';
 const portrait=`${base}/dr-fernando-borges-portrait.webp`;
@@ -32,4 +31,4 @@ const schema={'@context':'https://schema.org','@graph':[
  {'@type':'NewsArticle','@id':mediaId,url:pressUrl,mainEntityOfPage:pressUrl,headline:'Dr. Fernando Borges Ribeiro alerta para a queda da testosterona no homem moderno e os impactos da “Extinção Masculina” global',description:'Segundo o especialista, o fenômeno representa um dos maiores desafios da saúde do homem na atualidade, com reflexos que vão muito além da vida sexual.',datePublished:'2026-06-26',image:{'@type':'ImageObject',url:pressImage,width:736,height:1600},about:{'@id':physicianId},publisher:{'@type':'NewsMediaOrganization',name:'O Globo',url:'https://oglobo.globo.com/'},inLanguage:'pt-BR'}
 ]};
 
-export default function RootLayout({children}){return <html lang="pt-BR"><body><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/>{children}<MadeByNovaWeb/><FloatingWhatsApp/></body></html>}
+export default function RootLayout({children}){return <html lang="pt-BR"><body><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/>{children}<FloatingWhatsApp/></body></html>}
