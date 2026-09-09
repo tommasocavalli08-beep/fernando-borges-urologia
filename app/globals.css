@@ -29,3 +29,7 @@
 .trt-attention{display:grid;grid-template-columns:1fr 1fr}.trt-attention article{padding:90px max(5vw,35px);background:#e6e1d9}.trt-attention article+article{background:#24242d;color:#fff}.trt-attention article>svg{width:34px;height:34px;margin-bottom:28px;color:#9a6840}.trt-attention article+article>svg{color:#d0a77f}.trt-attention h2{font-family:var(--serif);font-size:clamp(34px,3.7vw,54px);font-weight:500;line-height:1.03}.trt-attention p{color:#68635e}.trt-attention article+article p{color:rgba(255,255,255,.6)}.bio-chapter,.trt-section,.trt-fertility,.trt-authority,.trt-attention,.trt-sources{content-visibility:auto;contain-intrinsic-size:800px}
 @media(max-width:950px){.trt-attention{grid-template-columns:1fr}}
 @media(max-width:580px){.trt-attention article{padding:70px 22px}.trt-attention h2{font-size:38px}}
+
+/* Hero logo: dark blue field requested by the client */
+.hero-logo-approved{background:linear-gradient(145deg,#0b2b50,#06172e);border-color:rgba(105,175,255,.38);box-shadow:0 36px 90px rgba(0,0,0,.42),0 8px 34px rgba(35,112,205,.28)}
+.hero-logo-approved small{color:#a9cff9}
