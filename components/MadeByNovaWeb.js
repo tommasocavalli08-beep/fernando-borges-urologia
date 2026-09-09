@@ -40,11 +40,11 @@ export default function MadeByNovaWeb() {
           margin: 0;
           padding: 7px 8px 7px 13px;
           overflow: hidden;
-          border: 1px solid rgba(141, 181, 230, .24);
+          border: 1px solid rgba(255,255,255,.18);
           border-radius: 999px;
-          background: linear-gradient(135deg, rgba(255,255,255,.07), rgba(23,63,121,.17));
-          box-shadow: 0 10px 28px rgba(0,0,0,.22), inset 0 1px 0 rgba(255,255,255,.06);
-          transition: transform .25s ease, border-color .25s ease, background .25s ease, box-shadow .25s ease;
+          background: #000;
+          box-shadow: 0 10px 28px rgba(0,0,0,.34), inset 0 1px 0 rgba(255,255,255,.05);
+          transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
           isolation: isolate;
         }
         .novaweb-credit::before {
@@ -52,20 +52,19 @@ export default function MadeByNovaWeb() {
           position: absolute;
           inset: 0;
           z-index: -1;
-          background: linear-gradient(110deg, transparent 25%, rgba(141,181,230,.10) 50%, transparent 75%);
+          background: linear-gradient(110deg, transparent 25%, rgba(255,255,255,.08) 50%, transparent 75%);
           transform: translateX(-120%);
           transition: transform .55s ease;
         }
         .novaweb-credit:hover {
           transform: translateY(-2px);
-          border-color: rgba(141,181,230,.48);
-          background: linear-gradient(135deg, rgba(255,255,255,.10), rgba(23,63,121,.25));
-          box-shadow: 0 14px 34px rgba(0,0,0,.28), 0 0 0 1px rgba(141,181,230,.05) inset;
+          border-color: rgba(141,181,230,.50);
+          box-shadow: 0 14px 34px rgba(0,0,0,.40), 0 0 0 1px rgba(141,181,230,.06) inset;
         }
         .novaweb-credit:hover::before { transform: translateX(120%); }
         .novaweb-credit-label {
           white-space: nowrap;
-          color: rgba(255,255,255,.48);
+          color: rgba(255,255,255,.82);
           font-size: 7px;
           font-weight: 700;
           letter-spacing: .17em;
@@ -78,8 +77,8 @@ export default function MadeByNovaWeb() {
           min-height: 28px;
           padding: 4px 9px;
           border-radius: 999px;
-          background: rgba(255,255,255,.95);
-          box-shadow: inset 0 0 0 1px rgba(8,17,31,.06);
+          background: #fff;
+          box-shadow: inset 0 0 0 1px rgba(8,17,31,.08);
         }
         .novaweb-credit-logo img {
           display: block;
