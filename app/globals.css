@@ -33,3 +33,11 @@
 /* Hero logo: dark blue field requested by the client */
 .hero-logo-approved{padding:12px;background:linear-gradient(145deg,#0b2b50,#06172e);border-color:rgba(105,175,255,.38);box-shadow:0 36px 90px rgba(0,0,0,.42),0 8px 34px rgba(35,112,205,.28)}
 .hero-logo-approved small{color:#a9cff9}
+
+/* Crédito de desenvolvimento */
+.novaweb-credit-bar{position:relative;z-index:2;display:flex;justify-content:center;padding:18px max(22px,7vw) 28px;background:#020305;border-top:1px solid rgba(255,255,255,.08)}
+.novaweb-credit{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border:1px solid rgba(255,255,255,.13);border-radius:999px;color:rgba(255,255,255,.72);font-size:9px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;transition:border-color .25s ease,color .25s ease,transform .25s ease,box-shadow .25s ease}
+.novaweb-credit:hover{transform:translateY(-2px);color:#fff;border-color:rgba(126,178,240,.48);box-shadow:0 10px 28px rgba(0,0,0,.28)}
+.novaweb-credit:focus-visible{outline:2px solid #7eb2ef;outline-offset:4px}
+.novaweb-credit-logo{display:inline-flex;align-items:center;padding:4px 10px;background:#000;border-radius:999px}
+.novaweb-credit-logo img{display:block;width:72px;height:auto}
