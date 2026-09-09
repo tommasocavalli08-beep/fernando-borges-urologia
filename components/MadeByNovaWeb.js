@@ -38,12 +38,13 @@ export default function MadeByNovaWeb() {
           gap: 10px;
           min-height: 42px;
           margin: 0;
-          padding: 7px 8px 7px 13px;
+          padding: 7px 10px 7px 13px;
           overflow: hidden;
-          border: 1px solid rgba(255,255,255,.18);
+          border: 1px solid rgba(255,255,255,.20);
           border-radius: 999px;
           background: #000;
-          box-shadow: 0 10px 28px rgba(0,0,0,.34), inset 0 1px 0 rgba(255,255,255,.05);
+          color: #fff;
+          box-shadow: 0 10px 28px rgba(0,0,0,.38), inset 0 1px 0 rgba(255,255,255,.05);
           transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
           isolation: isolate;
         }
@@ -58,13 +59,13 @@ export default function MadeByNovaWeb() {
         }
         .novaweb-credit:hover {
           transform: translateY(-2px);
-          border-color: rgba(141,181,230,.50);
-          box-shadow: 0 14px 34px rgba(0,0,0,.40), 0 0 0 1px rgba(141,181,230,.06) inset;
+          border-color: rgba(141,181,230,.55);
+          box-shadow: 0 14px 34px rgba(0,0,0,.44), 0 0 0 1px rgba(141,181,230,.06) inset;
         }
         .novaweb-credit:hover::before { transform: translateX(120%); }
         .novaweb-credit-label {
           white-space: nowrap;
-          color: rgba(255,255,255,.82);
+          color: rgba(255,255,255,.9);
           font-size: 7px;
           font-weight: 700;
           letter-spacing: .17em;
@@ -75,10 +76,9 @@ export default function MadeByNovaWeb() {
           align-items: center;
           justify-content: center;
           min-height: 28px;
-          padding: 4px 9px;
+          padding: 4px 7px;
           border-radius: 999px;
-          background: #fff;
-          box-shadow: inset 0 0 0 1px rgba(8,17,31,.08);
+          background: #000;
         }
         .novaweb-credit-logo img {
           display: block;
