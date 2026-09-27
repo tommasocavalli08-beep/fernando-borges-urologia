@@ -77,7 +77,7 @@ export default function TestosteronePage() {
         name: 'Reposição Hormonal Masculina e Testosterona',
         headline: 'Testosterona baixa? Reposição hormonal masculina começa pelo diagnóstico certo.',
         description: 'Entenda quando a testosterona baixa precisa de tratamento, sintomas, diagnóstico, reposição hormonal masculina, fertilidade, riscos e acompanhamento.',
-        inLanguage: 'pt-BR', dateModified: '2026-09-09', lastReviewed: '2026-09-09',
+        inLanguage: 'pt-BR', dateModified: '2026-09-27',
         about: { '@id': `${base}${path}#condition` }, author: { '@id': `${base}/sobre#physician` },
       },
       {
@@ -89,6 +89,11 @@ export default function TestosteronePage() {
       {
         '@type': 'MedicalTherapy', '@id': `${base}${path}#therapy`, name: 'Terapia de reposição de testosterona',
         description: 'Terapia individualizada que pode ser considerada após confirmação diagnóstica, avaliação de segurança, objetivos reprodutivos e discussão de riscos e benefícios.',
+      },
+      {
+        '@type': 'MedicalProcedure', '@id': `${base}${path}#care`, name: 'Avaliação da saúde hormonal masculina',
+        description: 'Consulta e investigação individualizada antes de decidir se há indicação de reposição de testosterona.',
+        performer: { '@id': `${base}/sobre#physician` }, provider: { '@id': `${base}/#clinic-rondonopolis` },
       },
       {
         '@type': 'BreadcrumbList', itemListElement: [
@@ -170,7 +175,7 @@ export default function TestosteronePage() {
 
     <section className="trt-sources">
       <span className="trt-kicker">Referências científicas e regulatórias</span><h2>Conteúdo orientado por fontes reconhecidas.</h2>
-      <ul><li>European Association of Urology — Guidelines on Sexual and Reproductive Health: Male Hypogonadism.</li><li>Endocrine Society — Testosterone Therapy in Men With Hypogonadism.</li><li>U.S. Food and Drug Administration — Testosterone Information and Labeling Updates.</li><li>Lincoff AM et al. Cardiovascular Safety of Testosterone-Replacement Therapy. NEJM, 2023.</li><li>Sociedade Brasileira de Urologia — posicionamento sobre deficiência e reposição de testosterona.</li><li>Conselho Federal de Medicina — Resolução CFM nº 2.333/2023.</li></ul>
+      <ul><li><a href="https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/male-hypogonadism" target="_blank" rel="noopener noreferrer">European Association of Urology — Sexual and Reproductive Health: Male Hypogonadism (2026).</a></li><li><a href="https://www.endocrine.org/clinical-practice-guidelines/testosterone-therapy" target="_blank" rel="noopener noreferrer">Endocrine Society — Testosterone Therapy in Men With Hypogonadism (2018).</a></li><li><a href="https://www.fda.gov/drugs/drug-alerts-and-statements/fda-issues-class-wide-labeling-changes-testosterone-products" target="_blank" rel="noopener noreferrer">U.S. Food and Drug Administration — Labeling Changes for Testosterone Products (2025).</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/37326322/" target="_blank" rel="noopener noreferrer">Lincoff AM et al. Cardiovascular Safety of Testosterone-Replacement Therapy. NEJM (2023). DOI: 10.1056/NEJMoa2215025.</a></li><li><a href="https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/male-infertility" target="_blank" rel="noopener noreferrer">European Association of Urology — Sexual and Reproductive Health: Male Infertility (2026).</a></li><li><a href="https://portal.cfm.org.br/noticias/cfm-proibe-a-prescricao-medica-de-terapias-hormonais-com-fins-esteticos-de-ganho-de-massa-muscular-e-de-melhoria-de-desempenho-esportivo" target="_blank" rel="noopener noreferrer">Conselho Federal de Medicina — Resolução CFM nº 2.333/2023 e orientações sobre hormônios.</a></li></ul>
       <p>Conteúdo educativo. Não substitui consulta, exame físico ou diagnóstico médico. Indicação, contraindicações e acompanhamento dependem da avaliação individual.</p>
     </section>
 

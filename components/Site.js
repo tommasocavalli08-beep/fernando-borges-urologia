@@ -64,7 +64,7 @@ export default function Site() {
 
     <section className="treatments section" id="tratamentos"><div className="section-index light">03 — Tratamentos</div><Reveal>
       <span className="overline silver">Jornada individualizada</span><h2>Várias frentes e focos de trabalho.<br /><em>Um único olhar integral.</em></h2>
-      <p className="section-intro">Informação médica clara para compreender cada condição, como funciona a avaliação e quais caminhos podem ser discutidos em consulta. As páginas permanecem preparadas para receber os próximos protocolos autorais do Dr. Fernando.</p>
+      <p className="section-intro">Informação médica clara para compreender cada condição, como funciona a avaliação e quais caminhos podem ser discutidos em consulta. Explore sinais, diagnóstico, opções de cuidado e referências científicas em cada página.</p>
     </Reveal><div className="treatment-grid">{treatments.map((t, i) => { const Icon = treatmentIcons[t.icon] || Circle; return <Reveal key={t.slug} delay={(i % 3) * .06}><Link href={`/tratamentos/${t.slug}`} className="treatment-card"><span className="number">{String(i + 1).padStart(2, '0')}</span><Icon /><small>{t.category}</small><h3>{t.title}</h3><p>{t.description}</p><span className="learn">Ver página dedicada <ArrowUpRight /></span></Link></Reveal>; })}</div></section>
 
     <section className="doctor section" id="especialista"><div className="section-index">04 — O especialista</div><div className="doctor-grid">

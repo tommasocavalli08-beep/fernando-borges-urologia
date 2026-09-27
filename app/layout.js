@@ -1,4 +1,5 @@
 import './globals.css';
+import './medical.css';
 import FloatingWhatsApp from '@/components/FloatingWhatsApp';
 
 const base='https://fernando-borges-urologia.vercel.app';
