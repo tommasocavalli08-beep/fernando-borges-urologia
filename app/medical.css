@@ -8,6 +8,16 @@
 .doctor-videos a{min-height:170px;display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;padding:19px;background:#153451;border:1px solid #386082;color:#fff}
 .doctor-videos a:hover{background:#24557b}.doctor-videos a>span{width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:#dbeaf5;color:#102d45}
 .doctor-videos strong{font:400 1.35rem Georgia,serif}.doctor-videos small{color:#c4d9e8}
+.kidney-videos{padding:92px max(5vw,24px);background:#0b2036;color:#f5f8fb;scroll-margin-top:95px}
+.kidney-videos-heading,.kidney-videos-grid{max-width:1160px;margin-inline:auto}
+.kidney-videos-heading>span{font:700 .75rem/1.5 Arial,sans-serif;text-transform:uppercase;letter-spacing:.15em;color:#9bc5e3}
+.kidney-videos-heading h2{font:400 clamp(2.4rem,4vw,4rem)/1.1 Georgia,serif;letter-spacing:-.03em;margin:14px 0}
+.kidney-videos-heading p{color:#c3d2df;line-height:1.65;max-width:740px;margin:0 0 38px}
+.kidney-videos-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.kidney-videos-grid article{background:#17344f;border:1px solid #39617c;min-width:0}
+.kidney-video-frame{aspect-ratio:16/9;background:#091625}.kidney-video-frame iframe{width:100%;height:100%;border:0;display:block}
+.kidney-video-caption{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:15px 18px;font-size:.9rem}.kidney-video-caption a{color:#e1f1fb;text-decoration:underline;text-underline-offset:4px}.kidney-video-caption a:focus-visible{outline:3px solid #9bc5e3;outline-offset:3px}
+@media(max-width:700px){.kidney-videos{padding:66px 20px}.kidney-videos-grid{grid-template-columns:1fr;gap:18px}}
 .visual-explainer{padding:96px max(5vw,24px);background:#eaf0f5;color:#172b40}
 .visual-explainer-heading{max-width:1160px;margin:0 auto 42px}
 .visual-explainer-heading span,.visual-explainer-card>div>span{font:700 .75rem/1.5 Arial,sans-serif;letter-spacing:.15em;text-transform:uppercase;color:#33729e}
