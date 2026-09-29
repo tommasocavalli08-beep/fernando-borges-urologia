@@ -1,0 +1,155 @@
+{
+  "calculos-renais": {
+    "eyebrow": "Da formação à prevenção",
+    "heading": "Entenda cada etapa do cuidado com a pedra nos rins",
+    "cards": [
+      {
+        "title": "Como a pedra se forma?",
+        "text": "A urina contém minerais que normalmente são eliminados pelo corpo. Quando ela fica muito concentrada, alguns desses minerais podem formar cristais. Com o tempo, os cristais podem se juntar e formar uma pedra dentro do rim. A pedra pode permanecer ali sem causar sintomas ou se deslocar para o ureter.",
+        "image": "/educacao/calculos-01.webp"
+      },
+      {
+        "title": "Por que a cólica dói?",
+        "text": "Quando a pedra entra no ureter, o canal que leva a urina do rim até a bexiga, ela pode dificultar a passagem da urina. Isso aumenta a pressão dentro do rim e provoca uma dor forte, que geralmente começa nas costas ou na lateral do abdômen e pode descer em direção à virilha. A dor pode vir em ondas e ser acompanhada de náuseas.",
+        "image": "/educacao/calculos-03.webp"
+      },
+      {
+        "title": "Febre com pedra: urgência",
+        "text": "Dor de pedra acompanhada de febre ou calafrios precisa de atendimento imediato. Esses sinais podem indicar uma infecção associada à obstrução do rim. Nessa situação, não basta tratar a dor: pode ser necessário usar antibióticos e drenar a urina com urgência. Vômitos persistentes, dificuldade para urinar ou dor que não melhora também exigem avaliação urgente.",
+        "image": "/educacao/calculos-02.webp"
+      },
+      {
+        "title": "Como localizar a pedra?",
+        "text": "Os sintomas ajudam a levantar a suspeita, mas os exames mostram onde a pedra está, seu tamanho e se há obstrução. Conforme o caso, podemos solicitar ultrassonografia ou tomografia, além de exames de urina e sangue. Essas informações nos ajudam a escolher o tratamento mais adequado e a verificar se existe algum sinal de risco.",
+        "image": "/educacao/calculos-04.webp"
+      },
+      {
+        "title": "A pedra pode sair sozinha?",
+        "text": "Algumas pedras, especialmente as menores e já localizadas no ureter, podem sair pela urina sem cirurgia. Isso depende também da posição da pedra, da intensidade dos sintomas e das condições do rim. Quando é seguro esperar, tratamos a dor e acompanhamos a evolução. É importante confirmar que a pedra saiu ou que a obstrução foi resolvida: o desaparecimento da dor, sozinho, não garante isso.",
+        "image": "/educacao/calculos-07.webp"
+      },
+      {
+        "title": "Ondas de choque: como agem?",
+        "text": "Nesse tratamento, ondas de choque produzidas fora do corpo são direcionadas à pedra para quebrá-la em fragmentos menores. Depois, esses fragmentos precisam ser eliminados pela urina. A técnica funciona melhor em determinadas situações; a escolha depende do tamanho, da localização e das características da pedra. Algumas pessoas precisam de mais de uma sessão ou de outro procedimento.",
+        "image": "/educacao/calculos-06.webp"
+      },
+      {
+        "title": "Como funciona o laser?",
+        "text": "No tratamento endoscópico, introduzimos um aparelho fino pelo canal da urina, passando pela bexiga até alcançar a pedra no ureter ou no rim. Uma fibra conduz o laser até a pedra para fragmentá-la, e parte dos fragmentos pode ser retirada durante o procedimento. Em alguns casos, colocamos temporariamente um cateter duplo J para facilitar a drenagem da urina. A indicação é individual.",
+        "image": "/educacao/calculos-05.webp"
+      },
+      {
+        "title": "Como prevenir novas pedras?",
+        "text": "Depois de tratar a pedra, precisamos entender por que ela se formou. Beber líquidos em quantidade adequada ajuda a manter a urina menos concentrada, mas a prevenção também pode envolver ajustes na alimentação e, em alguns casos, medicamentos. Analisar a pedra e investigar alterações na urina permite orientar os cuidados de acordo com o risco de cada pessoa. Não é recomendado simplesmente cortar todo o cálcio da dieta.",
+        "image": "/educacao/calculos-08.webp"
+      }
+    ]
+  },
+  "doenca-de-peyronie": {
+    "eyebrow": "Opções com expectativas realistas",
+    "heading": "Do diagnóstico às possibilidades de tratamento",
+    "cards": [
+      {
+        "title": "Uma placa pode mudar a curvatura durante a ereção",
+        "text": "A Doença de Peyronie é uma alteração adquirida da túnica albugínea, a camada que envolve os tecidos eréteis do pênis. Uma área de cicatrização endurecida, chamada placa, perde elasticidade. Quando ocorre a ereção, o lado com a placa se expande menos; por isso, o pênis pode se curvar em direção a essa área. Também podem ocorrer dor, encurtamento, estreitamento em “ampulheta”, sensação de instabilidade ou dificuldade para a penetração. Nem toda curvatura é Doença de Peyronie e nem toda pessoa precisa de procedimento. A avaliação procura entender quando a alteração começou, se ainda está mudando, como está a rigidez da ereção e qual é o impacto na vida sexual. Esses elementos ajudam a definir se o melhor caminho é acompanhar, tratar sintomas ou discutir uma intervenção.",
+        "image": "/educacao/peyronie-01.webp"
+      },
+      {
+        "title": "Tração peniana: uma estratégia conservadora que exige orientação e regularidade",
+        "text": "A tração peniana utiliza um dispositivo que aplica força controlada ao longo do eixo do pênis. Alguns modelos também permitem contraflexão, isto é, um ajuste planejado em sentido oposto ao da curvatura. O objetivo é discutir uma medida não cirúrgica que, em casos selecionados, pode contribuir para reduzir deformidade e preservar comprimento. O resultado não é igual para todas as pessoas. A resposta depende de fatores como fase da doença, formato da curvatura, presença de placa calcificada, tempo de uso e aderência ao protocolo. Os dispositivos podem causar desconforto e exigem técnica correta; por isso, o uso deve ser orientado por profissional habilitado. A tração pode ser considerada isoladamente ou como parte de uma estratégia combinada, mas não substitui avaliação individualizada.",
+        "image": "/educacao/peyronie-02.webp"
+      },
+      {
+        "title": "Colagenase: injeção direcionada à placa em situações selecionadas",
+        "text": "A colagenase de Clostridium histolyticum, conhecida pela marca Xiaflex® em alguns mercados, é aplicada diretamente na placa de Peyronie. A proposta é atuar sobre fibras de colágeno presentes na fibrose, associando a aplicação a técnicas de modelagem orientadas pelo médico. Ela pode ser uma alternativa não cirúrgica para homens selecionados, especialmente quando a doença está estável, a curvatura atende aos critérios clínicos e a função erétil é compatível. A disponibilidade, a regulamentação e os critérios de indicação variam entre países e serviços. A colagenase trata a curvatura; não é um tratamento direto para dor ou disfunção erétil. Hematoma, inchaço e dor são efeitos que precisam ser discutidos antes do procedimento. Embora incomum, há risco de complicações mais graves, como ruptura corporal; por isso, aconselhamento e acompanhamento são indispensáveis.",
+        "image": "/educacao/peyronie-03.webp"
+      },
+      {
+        "title": "Ondas de choque: foco no controle da dor, não na correção da curvatura",
+        "text": "A terapia por ondas de choque extracorpóreas utiliza um aplicador externo para emitir pulsos acústicos sobre a região tratada. Na Doença de Peyronie, ela pode ser considerada para aliviar dor na fase ativa em alguns casos. O procedimento é feito sem incisão, mas a escolha deve levar em conta sintomas, etapa de evolução da doença e alternativas disponíveis. É importante alinhar a expectativa: as principais diretrizes não recomendam ondas de choque como tratamento para reduzir a curvatura ou diminuir a placa. Portanto, elas não devem ser apresentadas como método de “endireitamento” do pênis. Quando utilizadas, fazem parte de um plano de cuidado individualizado, com conversa transparente sobre objetivo, benefício esperado, desconforto possível e necessidade de reavaliação.",
+        "image": "/educacao/peyronie-04.webp"
+      },
+      {
+        "title": "PRP: uma abordagem promissora, mas ainda em investigação",
+        "text": "O plasma rico em plaquetas (PRP) é preparado a partir de uma amostra do próprio sangue, concentrando componentes presentes no plasma e nas plaquetas. Na Doença de Peyronie, ele vem sendo estudado como possível recurso para atuar no ambiente de fibrose. Estudos iniciais motivam a pesquisa, mas ainda não há dados controlados suficientes para afirmar benefício consistente sobre curvatura, placa, dor ou função sexual. Por esse motivo, PRP não deve ser apresentado como cura ou como tratamento comprovado para todos. Ainda são necessárias pesquisas de melhor qualidade, com grupos de comparação, maior número de participantes, acompanhamento mais longo e protocolos padronizados. Caso seja discutido, é essencial que o paciente compreenda seu caráter investigacional, as incertezas de resultado e as alternativas consolidadas.",
+        "image": "/educacao/peyronie-05.webp"
+      },
+      {
+        "title": "Terapia celular: ciência em desenvolvimento, ainda sem uso estabelecido",
+        "text": "Terapias celulares são investigadas por sua possível capacidade de modular inflamação, cicatrização e remodelamento de tecido. Na Doença de Peyronie, resultados pré-clínicos e experiências clínicas iniciais sustentam o interesse científico, especialmente na tentativa de compreender como a fibrose poderia ser influenciada. No entanto, isso não significa que a terapia celular seja tratamento estabelecido. Ainda faltam estudos clínicos robustos para definir segurança de longo prazo, tipo de célula, dose, via de aplicação, seleção de pacientes e benefício real sobre curvatura, placa ou função erétil. A comunicação responsável deve manter clara essa diferença: trata-se de uma frente de pesquisa, e não de uma promessa de regeneração ou reversão da doença.",
+        "image": "/educacao/peyronie-06.webp"
+      },
+      {
+        "title": "Ácido hialurônico: opção a ser discutida com cautela na fase ativa",
+        "text": "O ácido hialurônico pode ser aplicado dentro da placa em situações selecionadas, sobretudo durante a fase ativa da Doença de Peyronie. Estudos sugerem possível benefício em dor e curvatura, mas a qualidade e o desenho das pesquisas ainda limitam conclusões definitivas. Por isso, a indicação não é automática e precisa ser contextualizada. A decisão considera tempo de evolução, presença de dor, progressão da curvatura, características da placa, função erétil e expectativas da pessoa. Diretrizes europeias admitem que o ácido hialurônico seja discutido para alguns pacientes, mas ressaltam que os dados de desfecho ainda são limitados. Uma conversa franca sobre incertezas, disponibilidade, efeitos adversos e outras possibilidades de cuidado é parte essencial da decisão compartilhada.",
+        "image": "/educacao/peyronie-07.webp"
+      },
+      {
+        "title": "Tratamentos cirúrgicos: a técnica depende da anatomia e da função erétil",
+        "text": "A cirurgia para Doença de Peyronie costuma ser considerada quando a deformidade está estável e compromete a relação sexual, causa sofrimento importante ou não respondeu de forma satisfatória às medidas conservadoras. Antes de qualquer decisão, é necessário avaliar o grau e o tipo de curvatura, a presença de encurtamento, estreitamento em ampulheta ou ponto de instabilidade, a qualidade da ereção e as expectativas do paciente. As três estratégias reconstrutivas mais usadas são a plicatura, a incisão da placa com enxerto e a prótese peniana. Elas não são equivalentes nem representam uma sequência obrigatória. Cada técnica tem objetivos, limites e riscos próprios; a decisão deve ser compartilhada com o urologista após documentação adequada da deformidade e da função erétil.",
+        "image": "/educacao/peyronie-08.webp",
+        "sections": [
+          {
+            "title": "Plicatura da túnica",
+            "text": "Na plicatura, o cirurgião realiza pontos no lado mais longo — o lado convexo — para equilibrar a curvatura e tornar o pênis funcionalmente mais reto. Em geral, ela pode ser discutida quando há boa rigidez de ereção, comprimento adequado e ausência de deformidades complexas importantes. A principal contrapartida é a possibilidade de perda de comprimento, porque a correção encurta o lado oposto à placa. Também podem ocorrer nós de sutura palpáveis, alteração de sensibilidade, curvatura residual ou recorrência. A técnica não trata, por si só, uma disfunção erétil que não responde a medicamentos."
+          },
+          {
+            "title": "Incisão da placa com enxerto",
+            "text": "Quando a curvatura é mais acentuada, o pênis é mais curto ou há deformidades complexas — como estreitamento em ampulheta ou efeito de dobradiça — pode-se discutir a abertura controlada da placa e a colocação de um enxerto. A ideia é ampliar o lado encurtado pela fibrose, reduzindo a necessidade de encurtar o lado oposto. É uma reconstrução mais complexa e costuma exigir função erétil preservada. Os riscos incluem alteração da rigidez, perda ou mudança de sensibilidade, curvatura residual ou recorrente e necessidade de outras intervenções. Não existe um material de enxerto universalmente superior; a escolha depende da situação clínica e da experiência da equipe."
+          },
+          {
+            "title": "Prótese peniana",
+            "text": "A prótese peniana pode ser indicada quando a Doença de Peyronie se associa a disfunção erétil que não melhora com tratamento clínico. Os cilindros implantados dentro dos corpos cavernosos buscam restaurar rigidez suficiente para a relação sexual. Se houver curvatura residual após a colocação, o cirurgião pode associar manobras de modelagem, plicatura ou, em casos selecionados, incisão/enxerto. Como toda prótese, há riscos cirúrgicos próprios, como infecção, falha mecânica, necessidade de revisão e alterações de percepção corporal. Por isso, a indicação envolve uma conversa detalhada sobre funcionamento do implante, recuperação e expectativas realistas."
+          }
+        ],
+        "closing": "A meta é obter um pênis funcionalmente reto o suficiente para uma vida sexual satisfatória. O melhor procedimento não é definido somente pelo ângulo: comprimento, rigidez, padrão da deformidade e prioridades individuais também importam."
+      }
+    ]
+  },
+  "reposicao-hormonal-testosterona": {
+    "eyebrow": "Diagnóstico, escolhas e segurança",
+    "heading": "Reposição hormonal explicada passo a passo",
+    "cards": [
+      {
+        "title": "Quando investigar a testosterona?",
+        "text": "A testosterona participa da manutenção do desejo sexual, da produção de espermatozoides, da massa muscular e da saúde dos ossos. Quando seus níveis estão baixos, o homem pode perceber redução do desejo sexual, menos ereções espontâneas, cansaço ou perda de força. Esses sinais merecem atenção quando são persistentes ou representam uma mudança importante em relação ao habitual.  Nenhum desses sintomas, porém, confirma sozinho uma deficiência hormonal. Sono ruim, apneia do sono, medicamentos, doenças metabólicas e questões emocionais também podem causar queixas semelhantes. Por isso, a primeira etapa é conversar sobre os sintomas, o histórico de saúde e os hábitos de vida. O exame de sangue entra como parte dessa avaliação, não como substituto dela.",
+        "image": "/educacao/testosterona-entenda.webp"
+      },
+      {
+        "title": "Como confirmar a deficiência?",
+        "text": "A quantidade de testosterona no sangue varia ao longo do dia. Ela também pode cair temporariamente durante uma doença ou em outras circunstâncias. Por isso, um resultado baixo isolado não significa, necessariamente, que o homem precisa fazer reposição.  Em geral, o diagnóstico exige sintomas ou sinais compatíveis e duas dosagens de testosterona total, em manhãs diferentes, interpretadas junto com o quadro clínico. Dependendo dos resultados e das características do paciente, outros exames podem ajudar a esclarecer a causa. O objetivo é responder a duas perguntas antes de tratar: existe realmente uma deficiência persistente e ela ajuda a explicar o que o paciente está sentindo?",
+        "image": "/educacao/testosterona-02.webp"
+      },
+      {
+        "title": "Por que a testosterona pode cair?",
+        "text": "Os testículos produzem a maior parte da testosterona, mas recebem instruções hormonais do cérebro, especialmente da hipófise. Assim, um nível baixo pode estar relacionado aos próprios testículos, aos sinais que controlam sua atividade ou a condições de saúde que interferem nesse sistema.  Medicamentos, uso prévio de anabolizantes, obesidade, distúrbios do sono e algumas doenças podem participar desse processo. Em certos casos, tratar um fator associado melhora a situação sem que a reposição seja a primeira medida. Em outros, a deficiência tem uma causa persistente e a reposição pode ser considerada. Investigar a origem evita tratar apenas o número do exame e ajuda a escolher uma conduta adequada para aquele paciente.",
+        "image": "/educacao/testosterona-07.webp"
+      },
+      {
+        "title": "Quando a reposição faz sentido?",
+        "text": "A reposição pode fazer sentido para um homem com sintomas compatíveis e deficiência de testosterona confirmada, após investigar a causa e discutir os benefícios e riscos. A decisão considera também o desejo de ter filhos, outras doenças, os medicamentos em uso e aquilo que o paciente espera do tratamento.  Nem todo homem com um exame baixo precisa receber testosterona. Da mesma forma, repor o hormônio não resolve automaticamente todo caso de cansaço ou disfunção erétil. Antes de começar, é importante estabelecer quais sintomas se pretende melhorar e como essa melhora será avaliada. Se não houver benefício clínico relevante ou surgirem alterações importantes nos exames, o plano deve ser revisto.",
+        "image": "/educacao/testosterona-01.webp"
+      },
+      {
+        "title": "Gel ou injeção?",
+        "text": "O gel é aplicado na pele conforme a orientação da formulação prescrita. A injeção é administrada em intervalos que variam de acordo com o medicamento. As duas formas podem ser utilizadas para repor testosterona, mas diferem na rotina de uso, na forma como os níveis hormonais variam e nos cuidados necessários.  Com o gel, é preciso seguir as instruções de aplicação para evitar a transferência do produto para outra pessoa por contato com a pele. Algumas formulações injetáveis podem produzir oscilações mais perceptíveis entre aplicações e exigem atenção ao hematócrito, exame que avalia a proporção de glóbulos vermelhos no sangue. A melhor escolha depende do perfil clínico, das preferências do paciente e da resposta observada no acompanhamento.",
+        "image": "/educacao/testosterona-03.webp"
+      },
+      {
+        "title": "O que pode melhorar?",
+        "text": "Em homens com deficiência confirmada, a reposição pode melhorar o desejo sexual e alguns outros sintomas sexuais. A resposta costuma ser gradual e varia entre as pessoas. Quando existe disfunção erétil, também é necessário investigar outras possíveis causas; elevar a testosterona, por si só, pode não resolver o problema.  O tratamento pode aumentar a densidade mineral dos ossos em determinados pacientes. Isso, porém, não significa que esteja comprovada uma redução de fraturas. Benefícios sobre energia, humor, composição corporal ou desempenho não devem ser prometidos como resultados garantidos. Durante o acompanhamento, o paciente e o médico verificam juntos o que mudou de maneira concreta e se os benefícios justificam continuar a terapia.",
+        "image": "/educacao/testosterona-04.webp"
+      },
+      {
+        "title": "E a fertilidade?",
+        "text": "A testosterona aplicada de fora do corpo pode diminuir os sinais que o cérebro envia aos testículos para produzir espermatozoides. Por isso, um homem pode ter testosterona adequada no sangue durante a reposição e, ao mesmo tempo, apresentar redução importante da produção de espermatozoides. A reposição não é um tratamento para infertilidade masculina.  Se o paciente deseja ter filhos agora ou no futuro, esse assunto precisa ser abordado antes da primeira dose. A avaliação pode incluir a história reprodutiva e, quando indicado, um espermograma. Existem estratégias diferentes para situações em que é necessário cuidar da deficiência hormonal e preservar a fertilidade, mas sua escolha depende de investigação especializada. Não se deve presumir que associar outro medicamento à testosterona elimine o risco reprodutivo.",
+        "image": "/educacao/testosterona-08.webp"
+      },
+      {
+        "title": "Como acompanhar com segurança?",
+        "text": "O acompanhamento verifica duas coisas: se o tratamento está ajudando e se continua seguro para aquele paciente. Nas consultas, avaliamos sintomas, possíveis efeitos adversos, pressão arterial e níveis de testosterona. O hemograma permite acompanhar o hematócrito, que pode subir durante a reposição. A avaliação da próstata, incluindo o PSA quando apropriado, é planejada conforme a idade, o histórico e os riscos individuais.  Os exames são feitos antes do tratamento e repetidos em intervalos definidos pelo médico, especialmente durante o primeiro ano. Se o hematócrito subir demais, se a pressão aumentar ou se surgirem outras alterações, pode ser necessário ajustar a dose, trocar a formulação ou interromper a terapia. A segurança depende desse acompanhamento contínuo, e não apenas da escolha inicial do medicamento.",
+        "image": "/educacao/testosterona-06.webp"
+      }
+    ]
+  }
+}

@@ -15,6 +15,7 @@ import {
   Users,
 } from 'lucide-react';
 import Header from './Header';
+import VisualExplainer from './VisualExplainer';
 
 const base = 'https://fernando-borges-urologia.vercel.app';
 const path = '/tratamentos/reposicao-hormonal-testosterona';
@@ -77,7 +78,7 @@ export default function TestosteronePage() {
         name: 'Reposição Hormonal Masculina e Testosterona',
         headline: 'Testosterona baixa? Reposição hormonal masculina começa pelo diagnóstico certo.',
         description: 'Entenda quando a testosterona baixa precisa de tratamento, sintomas, diagnóstico, reposição hormonal masculina, fertilidade, riscos e acompanhamento.',
-        inLanguage: 'pt-BR', dateModified: '2026-09-27',
+        inLanguage: 'pt-BR', dateModified: '2026-09-29',
         about: { '@id': `${base}${path}#condition` }, author: { '@id': `${base}/sobre#physician` },
       },
       {
@@ -157,6 +158,7 @@ export default function TestosteronePage() {
     </section>
 
     <section className="trt-fertility"><div><Users /><span className="trt-kicker">Decisão que muda a estratégia</span><h2>Pretende ter filhos? Isso muda a estratégia hormonal.</h2><p>A testosterona externa pode reduzir ou interromper temporariamente a produção de espermatozoides. O desejo atual ou futuro de paternidade precisa ser discutido antes de iniciar qualquer terapia. Existem caminhos individualizados que dependem da avaliação hormonal e reprodutiva.</p><Link href="/tratamentos/fertilidade-masculina">Conhecer a página de fertilidade masculina <ArrowUpRight /></Link></div></section>
+    <VisualExplainer slug="reposicao-hormonal-testosterona"/>
 
     <section className="trt-authority">
       <div className="trt-authority-photo"><Image src="/dr-fernando-borges-portrait.webp" alt="Dr. Fernando Borges Ribeiro" width={1122} height={1402} sizes="(max-width: 850px) 100vw, 40vw" /></div>

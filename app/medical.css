@@ -1,4 +1,29 @@
 .medical-page{--med-navy:#071629;--med-blue:#20486f;--med-ink:#172332;--med-line:#d9e0e6;background:#fff;color:var(--med-ink);overflow:clip}
+.site-credentials{display:flex;justify-content:center;align-items:center;gap:10px 20px;flex-wrap:wrap;padding:17px 24px;background:#071629;color:#dceaf4;font:600 13px/1.5 Arial,sans-serif;text-align:center}
+.site-credentials strong{color:#fff}
+.doctor-videos{background:#071629;color:#fff;padding:75px max(6vw,24px)}
+.doctor-videos>span{color:#a6c9e5;text-transform:uppercase;letter-spacing:.14em;font-size:.78rem}
+.doctor-videos h2{font:400 clamp(2rem,4vw,3.6rem)/1.12 Georgia,serif;max-width:750px;margin:16px 0 34px}
+.doctor-videos>div{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;max-width:1200px}
+.doctor-videos a{min-height:170px;display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;padding:19px;background:#153451;border:1px solid #386082;color:#fff}
+.doctor-videos a:hover{background:#24557b}.doctor-videos a>span{width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:#dbeaf5;color:#102d45}
+.doctor-videos strong{font:400 1.35rem Georgia,serif}.doctor-videos small{color:#c4d9e8}
+.visual-explainer{padding:96px max(5vw,24px);background:#eaf0f5;color:#172b40}
+.visual-explainer-heading{max-width:1160px;margin:0 auto 42px}
+.visual-explainer-heading span,.visual-explainer-card>div>span{font:700 .75rem/1.5 Arial,sans-serif;letter-spacing:.15em;text-transform:uppercase;color:#33729e}
+.visual-explainer-heading h2{font:400 clamp(2.4rem,4vw,4.2rem)/1.08 Georgia,serif;letter-spacing:-.035em;max-width:850px;margin:15px 0}
+.visual-explainer-heading p{font-size:1.05rem;line-height:1.65;color:#526375;max-width:720px}
+.visual-explainer-list{max-width:1160px;margin:auto;display:grid;gap:25px}
+.visual-explainer-card{display:grid;grid-template-columns:1fr 1fr;gap:0;align-items:stretch;background:#fff;border:1px solid #d6e0e8;box-shadow:0 14px 42px rgba(7,26,47,.05)}
+.visual-explainer-card:nth-child(even) figure{order:2}
+.visual-explainer-card figure{margin:0;display:flex;flex-direction:column;background:#f6f8fa;min-width:0}
+.visual-explainer-card img{width:100%;height:auto;aspect-ratio:1586/992;object-fit:contain;display:block}
+.visual-explainer-card figcaption{padding:10px 20px 17px;color:#657382;font-size:.78rem}
+.visual-explainer-card>div{padding:clamp(26px,4vw,54px);display:flex;flex-direction:column;justify-content:center}
+.visual-explainer-card h3{font:400 clamp(1.7rem,2.5vw,2.7rem)/1.12 Georgia,serif;letter-spacing:-.02em;margin:17px 0}
+.visual-explainer-card p{font:400 1rem/1.75 Arial,sans-serif;color:#425467;margin:0}
+.visual-explainer-detail{border-top:1px solid #d8e1ea;margin-top:20px;padding-top:17px}.visual-explainer-detail h4{font:600 1.03rem/1.4 Arial,sans-serif;color:#193c60;margin:0 0 6px}.visual-explainer-card .visual-explainer-closing{margin-top:22px;color:#173f61;font-weight:600}
+@media(max-width:800px){.visual-explainer{padding:68px 20px}.visual-explainer-card{grid-template-columns:1fr}.visual-explainer-card:nth-child(even) figure{order:0}.visual-explainer-card>div{padding:25px 25px 34px}.visual-explainer-card h3{font-size:1.8rem}.visual-explainer-card p{font-size:1.02rem}}
 .medical-page h1,.medical-page h2,.medical-page h3{font-family:Georgia,'Times New Roman',serif;font-weight:400;letter-spacing:-.025em}
 .medical-page p{font-size:1.05rem;line-height:1.72}
 .medical-page a:focus-visible,.medical-page summary:focus-visible{outline:3px solid #76a9df;outline-offset:4px}
