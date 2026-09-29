@@ -18,6 +18,10 @@
 .visual-explainer-card:nth-child(even) figure{order:2}
 .visual-explainer-card figure{margin:0;display:flex;flex-direction:column;background:#f6f8fa;min-width:0}
 .visual-explainer-card img{width:100%;height:auto;aspect-ratio:1586/992;object-fit:contain;display:block}
+.visual-panel-link{display:block;overflow:hidden;width:100%;color:inherit}
+.visual-panel-crop{display:block;position:relative;width:100%;aspect-ratio:3344/2823;overflow:hidden}
+.visual-explainer-card .visual-panel-crop img{position:absolute;max-width:none;width:300%;height:200%;aspect-ratio:auto;left:calc(var(--panel-x) * -100%);top:calc(var(--panel-y) * -100%)}
+.visual-panel-link:focus-visible{outline:3px solid #276ca1;outline-offset:-3px}
 .visual-explainer-card figcaption{padding:10px 20px 17px;color:#657382;font-size:.78rem}
 .visual-explainer-card>div{padding:clamp(26px,4vw,54px);display:flex;flex-direction:column;justify-content:center}
 .visual-explainer-card h3{font:400 clamp(1.7rem,2.5vw,2.7rem)/1.12 Georgia,serif;letter-spacing:-.02em;margin:17px 0}

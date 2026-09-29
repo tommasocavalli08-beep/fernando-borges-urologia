@@ -151,5 +151,65 @@
         "image": "/educacao/testosterona-06.webp"
       }
     ]
+  },
+  "disfuncao-eretil": {
+    "eyebrow": "Guia visual do médico",
+    "heading": "Disfunção erétil: entenda os sinais, as causas e o cuidado",
+    "cards": [
+      {
+        "title": "Como a ereção acontece?",
+        "text": "A ereção envolve sinais do cérebro, nervos, vasos sanguíneos, hormônios e o tecido cavernoso. O estímulo sexual favorece o relaxamento dos vasos, a entrada de sangue e sua retenção no pênis. Alterações em qualquer etapa podem reduzir a rigidez. Uma dificuldade ocasional é comum; a recorrência merece avaliação.",
+        "image": "/educacao/disfuncao-eretil-infografico.webp",
+        "panel": [
+          0,
+          0
+        ]
+      },
+      {
+        "title": "O que é disfunção erétil?",
+        "text": "É a dificuldade recorrente para obter ou manter uma ereção suficiente para uma atividade sexual satisfatória. A intensidade e a frequência variam. O sintoma não define sozinho a causa, e a investigação leva em conta seu início, as situações em que ocorre e as condições de saúde associadas.",
+        "image": "/educacao/disfuncao-eretil-infografico.webp",
+        "panel": [
+          1,
+          0
+        ]
+      },
+      {
+        "title": "Quais são as possíveis causas?",
+        "text": "Fatores vasculares, neurológicos, hormonais, medicamentosos e emocionais podem atuar isoladamente ou em conjunto. Diabetes, hipertensão, tabagismo e doenças cardiovasculares merecem atenção. Não se deve atribuir automaticamente a dificuldade apenas à idade ou à ansiedade.",
+        "image": "/educacao/disfuncao-eretil-infografico.webp",
+        "panel": [
+          2,
+          0
+        ]
+      },
+      {
+        "title": "Quais fatores aumentam o risco?",
+        "text": "Tabagismo, diabetes, pressão alta, obesidade, sedentarismo, consumo excessivo de álcool e sono inadequado podem contribuir para a disfunção erétil. A avaliação também considera medicamentos, saúde mental e risco cardiovascular. Melhorar os fatores modificáveis ajuda a saúde geral e pode beneficiar a função sexual.",
+        "image": "/educacao/disfuncao-eretil-infografico.webp",
+        "panel": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Como escolher o tratamento?",
+        "text": "O plano depende da causa e das preferências do paciente. Pode incluir mudanças de hábitos, terapia sexual, medicamentos orais, dispositivo a vácuo, injeções intracavernosas ou prótese em casos selecionados. Reposição de testosterona exige deficiência confirmada. Ondas de choque têm indicação limitada, enquanto PRP e terapias celulares seguem em investigação e não são rotina.",
+        "image": "/educacao/disfuncao-eretil-infografico.webp",
+        "panel": [
+          1,
+          1
+        ]
+      },
+      {
+        "title": "Quando procurar um urologista?",
+        "text": "Procure avaliação se a dificuldade se repete, se a rigidez ou a duração da ereção mudou, ou se há alterações do desejo, da forma do pênis ou condições como diabetes e hipertensão. Uma ereção dolorosa que dura mais de quatro horas exige atendimento de urgência.",
+        "image": "/educacao/disfuncao-eretil-infografico.webp",
+        "panel": [
+          2,
+          1
+        ]
+      }
+    ]
   }
 }
